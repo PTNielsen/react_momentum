@@ -1,0 +1,19 @@
+html {
+  background: url(images/test_image.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.time {
+  color: white;
+  font-size: 7em;
+  text-align: center;
+}
+
+.time-message {
+  color: white;
+  font-size: 4em;
+  text-align: center;
+}
