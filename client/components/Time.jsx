@@ -13,9 +13,9 @@ export default class Time extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="time-group">
         <h1 className="time">{this._formattedHour(this.state.hour)}:{this._formattedMinute(this.state.minute)}</h1>
-        <p className="time-message">{this._timeMessage(this.state.hour)}, Patrick</p>
+        <p className="time-message">{this._timeMessage(this.state.hour)}, Patrick.</p>
       </div>
     );
   }
