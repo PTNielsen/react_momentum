@@ -1,6 +1,6 @@
 import React from 'react';
 import Time from './Time.jsx';
-import { Icon } from 'semantic-ui-react';
+import Todo from './Todo.jsx';
 
 export default class App extends React.Component {
   render() {
