@@ -13,10 +13,10 @@ export default class Time extends React.Component {
 
   render() {
     return (
-      <div className="time-group">
-        <h1 className="time">{this._formattedHour(this.state.hour)}:{this._formattedMinute(this.state.minute)}</h1>
-        <p className="time-message">{this._timeMessage(this.state.hour)}, Patrick.</p>
-      </div>
+      <section id="time-group">
+        <h1 id="time">{this._formattedHour(this.state.hour)}:{this._formattedMinute(this.state.minute)}</h1>
+        <p id="time-message">{this._timeMessage(this.state.hour)}, Patrick.</p>
+      </section>
     );
   }
 
@@ -57,7 +57,7 @@ export default class Time extends React.Component {
 
     if (hour >= 0 && hour < 12) {
       message = "Good morning"
-    } else if (hour >= 12 && hour <= 17) {
+    } else if (hour >= 12 && hour < 17) {
       message = "Good afternoon"
     }
 
