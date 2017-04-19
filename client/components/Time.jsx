@@ -57,7 +57,7 @@ export default class Time extends React.Component {
 
     if (hour >= 0 && hour < 12) {
       message = "Good morning"
-    } else if (hour >= 12 && hour <= 19) {
+    } else if (hour >= 12 && hour <= 17) {
       message = "Good afternoon"
     }
 
