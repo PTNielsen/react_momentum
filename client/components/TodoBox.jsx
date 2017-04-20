@@ -7,16 +7,7 @@ export default class TodoBox extends React.Component {
     super()
 
     this.state = {
-      toDoItems: [
-        {
-          id: 1,
-          body: 'Item 1'
-        },
-        {
-          id: 2,
-          body: 'Item 2'
-        }
-      ]
+      toDoItems: []
     }
   }
 
